@@ -1,0 +1,184 @@
+body{
+display: block;
+/*    width: 100%;*/
+    height: 100%;
+}
+
+.row{
+    
+    width: 100%;
+    margin: auto;
+    
+}
+
+row::after{
+    
+    
+    
+}
+.column-1{width: 8.33%;
+
+border: opx;
+    border-radius: 20%;
+}
+
+.column-2{width: 16.67%;}
+
+.column-3{width: 20%;
+float: right;
+ margin-right: 100px;
+    border-radius: 30%;
+}
+
+.column-4{width: 33.33%;
+background: #eee;
+min-height: 100%;
+   padding: 0px; 
+    margin-left: 200px;
+}
+
+.column-5{width: 41.65%;
+    float: right;
+    margin-left:
+}
+
+.column-6{width: 50%;}
+
+.column-7{width: 58.31%;}
+
+.column-8{width: 66.64%;}
+
+.column-9{width: 75%;}
+
+.column-10{width: 83.3%;}
+
+.column-11{width: 91.63%;}
+
+.column-12{width: 100%;}
+
+.a{
+    
+    background: #eee;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.body{
+    
+    background-image: url(depositphotos_16363613-stock-photo-symbol-of-social-network.jpg);
+   width: 100%;
+    padding-bottom: 350px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+    
+/*    opacity: 80%;*/
+}
+
+b{
+     font-size: 70px;
+}
+.image{
+/*    width: 300px;*/
+/*    float: right*/
+/*    border-radius: 20%;*/
+    transition: 2s;
+/*    box-shadow: 10px 5px 10px #101010;*/
+}
+
+.image:hover{
+     transform: scale(1.2);
+    transition: 2s;
+/*    z-index: auto;*/
+  cursor: pointer;
+}
+h2,p{
+    font-size:30px; 
+}
+li{
+    display: inline;
+ word-spacing: 20px;
+    font-size: 30px
+}
+a{
+     text-decoration: none;
+}
+.right{
+    float: right;
+     word-spacing: 20px;
+    padding-right: 5px;
+    
+}
+.left{
+    
+    float: left;
+}
+a:hover{
+    color: aliceblue;
+    background: black;
+}
+.sample{
+/*    background-color: #eee;*/
+/*     padding-top: 3px;*/
+/*   opacity: 30%;*/
+
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+.text{
+    
+    height: 500px;
+}
+.img1{
+/*    opacity: 50%;*/
+    border-radius: 50px
+         transition: 2s;
+}
+.img2{
+/*    opacity: 50%;*/
+     transition: 2s;
+    cursor: pointer;
+}
+.img3{
+/*    opacity: 50%;*/
+    transition: 2s;
+    cursor: pointer;
+}
+.about{
+    
+    background-image: url(d.jpeg);
+/*    background-image: url(depositphotos_16363613-stock-photo-symbol-of-social-network.jpg);*/
+    background-attachment: fixed;
+ background-size: cover;
+}
+.about h2{
+    
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.f,.h,.g{
+display: inline-block;
+    padding: 20px
+    
+    
+}
+.img3:hover{
+    transition: 2s;
+    transform: scale(1.1)
+    
+}
+.img2:hover{
+    transition: 2s;
+    transform: scale(1.1)
+    
+}
+.img1:hover{
+    transition: 2s;
+    transform: scale(1.1)
+    
+}
+.row {background: #eee;}
+
