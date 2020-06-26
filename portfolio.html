@@ -6,26 +6,43 @@
     <meta charset = "utf-8">
     <link rel = "stylesheet" href="portfolio.css">
     <title>Myportfolio</title> 
+    
+  
     </head>
 <body>
     
     <div class = "a">
-   <marquee><h1><b>NDELLE HERBERT(Merkaddishkem)</b></h1></marquee> 
-    </div><br>
+   <marquee><h1><b>MY  PORTFOLIO</b></h1></marquee> 
+    </div>
+    <br>
+   
+    <marquee direction="right"><button id = "demo" onclick="displayDate()">Click to view today's date!</button></marquee>
   <div class="body"> 
-       <div class="right">
+      
+      <div class="dropdown" style = "float:left">
+      <button class="dropdownbtn">Contents</button>
+          <div class="dropdowncontent">   
         
          <li><a href = "Galery.html">Galery</a></li>
         <li><a href = "about.html">About</a></li>
-        </div>
-      <div class="left">  <li><a href = "graphicdesign.html">Graphic </a></li>
-        <li><a href = "Web development.html">Web </a></li> </div>
+       
+       <li><a href = "graphicdesign.html">Graphic </a></li>
+        <li><a href = "Web development.html">Web </a></li> 
       
-      <b>NDELLE HERBERT</b>
+      </div>
+    
+      
+      
+      
+      </div>
+    
+      <b id="welcome" onclick="change(this)">NDELLE HERBERT</b>
+      <p id="cool"></p>
+      
         <br>
     Graphics Designing . Web develoment and much more....... 
     </div>  
-   
+  
     <div class=".row">
     <div class="column-3">
         <div class ="image">
@@ -39,7 +56,7 @@
         
        <h2>
             About Me</h2>
-            <p>I'm a young programmer with so many achievements but not yet stil satisfied bearing in mind of achieving greater than the greatest with God with me.</p>
+            <p>I'm a young programmer with so many achievements but not yet still satisfied bearing in mind of achieving greater than the greatest with God in me.</p>
         </div>
         
         </div>
@@ -49,21 +66,35 @@
     </div> 
     
     <div class ="about">
+        <h2>MY PROGRAMS</h2>
+       <p>With my few years of experience, i've gathered some incredible skills in the fields below.These skills though gotten, it's a wonderful eperience when the journey begined. An encouragement for starters/beginners.</p>
     <div class="sample">
        <div class="row">
         <div class="column-3">
-           
-           <img src="5741.jpg_wh860.jpg" width="400px" height="300px" opacity=50%>
+             <div class="img3info">
+             
+             <h1>ENCRYPTION/DECRYPT</h1>
+             
+             </div>
+          <div class="img1"> <img src="data-encryption-best-practices-1.jpg" width="400px" height="300px" title=" Click to go to link"></div> 
            
            </div>
              <div class="column-5">
-           
-           <img src="5741.jpg_wh860.jpg" width="500px" height="300px">
+                  <div class="img2info">
+             
+             <h1>WEB-DEVELOPMENT</h1>
+             
+             </div>
+           <div class="img2">  <img src="untitlsssssed.png" width="500px" height="300px" title=" Click to go to link"></div>
            
            </div>
          <div class="column-1">
-           
-           <img src="5741.jpg_wh860.jpg" width="370px" height="300px">
+            <div class="img1info">
+             
+             <h1>GRAPHICDESIGN</h1><br>
+             
+             </div>
+           <div class="img3"> <img src="GraphicDesignTrends_ARTURTH_0000_OpenComposition_ARTURTH.jpg" width="370px" height="300px" title = "Click and go to link"></div>
            
            </div>
         
@@ -75,7 +106,43 @@
         
     
         </div>
+      <script  type ="text/javascript"
+           src = "portfolio.js"></script>
     </body>
+    <footer>
+    <div class="footer">
+        <div> <h1>Contact via:</h1></div>
+       <div class= "f"> <h3>
+        <li><a href = ""><img src ="darkmode-instagram-1200x650.jpg" width="90px" height="70px" title="Instagram"></a></li>
+        
+        </h3>
+           
+        
+        
+        
+        </div>
+        <div class= "g"> <h3>
+        <li><a href = ""><img src ="facebook-link_318-10348.jpg" width="70px" height="70px" title="facebook"></a></li>
+        
+        </h3>
+           
+        
+        
+        
+        </div>
+        <div class= "h"> <h3>
+        <li><a href = ""> <img src ="  WhatsApp-web_AndroidPIT.jpg" width="90" height="70" padding = "0px" title = "Whatsapp"></a></li>
+            
+        </h3>
+           
+        
+        
+        
+        </div>
+    </div>
+    
+    
+    </footer>
 
 
 </html>

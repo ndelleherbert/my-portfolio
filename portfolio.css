@@ -77,6 +77,7 @@ min-height: 100%;
 
 b{
      font-size: 70px;
+    cursor: pointer;
 }
 .image{
 /*    width: 300px;*/
@@ -98,7 +99,7 @@ h2,p{
 li{
     display: inline;
  word-spacing: 20px;
-    font-size: 30px
+    font-size: 20px;
 }
 a{
      text-decoration: none;
@@ -131,8 +132,9 @@ a:hover{
 }
 .img1{
 /*    opacity: 50%;*/
-    border-radius: 50px
+/*    border-radius: 50px*/
          transition: 2s;
+    cursor: pointer;
 }
 .img2{
 /*    opacity: 50%;*/
@@ -181,4 +183,39 @@ display: inline-block;
     
 }
 .row {background: #eee;}
+button{
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+}
 
+.dropdown{
+    position: relative;
+    display: inline-block;
+/*    font-size: 20px;*/
+}
+
+.dropdowncontent a{
+    
+    display: block;
+/*    color: black;*/
+}
+.dropdownbtn {
+    background-color: aquamarine;
+    color: black;
+    padding: 16px;
+    font-size: 2s0px;
+    border: none;
+}
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdowncontent {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
