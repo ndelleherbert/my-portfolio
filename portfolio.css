@@ -192,7 +192,7 @@ button{
 .dropdown{
     position: relative;
     display: inline-block;
-/*    font-size: 20px;*/
+    font-size: 20px;
 }
 
 .dropdowncontent a{
@@ -219,3 +219,4 @@ button{
 .dropdown:hover .dropdowncontent {display: block;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
